@@ -1,15 +1,13 @@
-.imagem {
-
-    width: 250px;
-    height: 250px;
-    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRthv0uTqPUPk95ci5unj44ajTW4Tx06zorqQ&usqp=CAU");
-}
-.texto {
+#container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #container figcaption {
     position: absolute;
-    background-color: rgba(0,0,0,0.5);
-    text-align: center;
-    top: 100px;
-    width: 250px;
-    line-height: 30px;
-    height: 30px;
-}
+    top: 200px;
+    right: 20px;
+    font-size: 40px;
+    color: rgb(214, 7, 7);
+    text-shadow: 0px 0px 5px black;
+  }
